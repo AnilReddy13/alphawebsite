@@ -1,0 +1,372 @@
+
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .course-heading{
+    color: #00888f;
+    font-size: 25px;
+    font-family: 'times new roman';
+    font-weight: 400;
+    text-decoration: underline;
+    text-decoration-color: #82CD28;
+    margin-top: 30px;
+    margin-bottom: 80px;
+  }
+  .course-card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    background-size: cover;
+    background-image: url("https://res.cloudinary.com/daxl8xwme/image/upload/v1707913978/Vector_3_vir7lj.png");
+  }
+  
+  .html-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid;
+    border-top-color: #FF4500;
+    border-left-color: #FF4500;
+    border-right-color: #006DB7;
+    border-bottom-color: #006DB7;
+  }
+  .course-logo{
+    height: 80px;
+    width: 100px;
+    align-self: center;
+    padding-left: 25px;
+  }
+  .course-card-heading{
+    font-size: 15px;
+    font-family: jaldi;
+    text-align: center;
+    color: black;
+  }
+  .course-card-btn{
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    width: 150px;
+    height: 25px; 
+  }
+  .javascript-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 16px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #F0DB4F;
+  }
+  .bootstrap-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #703CBD;
+  }
+  .react-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #61D6F2;
+  }
+  .backend-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #82CD28;
+  }
+  .sql-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #678B93;
+  }
+  .angular-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #C1012C;
+  }
+  .machine-learn-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #1db5db;
+  }
+  .datascience-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #61D6F2;
+  }
+  .c-card{
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid #6193C0;
+  }
+  .java-card{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid;
+    border-image: linear-gradient( #F8981D, #5382A1);
+    border-image-slice: 1;
+    border-radius: 15px;
+    
+  }
+  .python-card{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    list-style-type: none;
+    border: 15px solid;
+    border-image: linear-gradient( #3871A6, #FDCE3E);
+    border-image-slice: 1;
+    border-radius: 15px;
+  }
+  .bottom-sec {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+  .side-head-sec {
+    display: flex;
+    flex-direction: row;
+  }
+  .alpha-head {
+    font-size: 35px;
+    color: #00adb5;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    font-weight: 500;
+  }
+  .where_des {
+    font-size: 25px;
+    color: #00adb5;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60%;
+    font-weight: 300;
+  }
+  .quick {
+    font-size: 25px;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .quick-link-sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .reach-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .reach {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 80px;
+  }
+  .whatsapp {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 80px;
+  }
+  .mid-sec {
+    font-size: 25px;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 120px;
+  }
+  .policy {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 80px;
+  }
+  .blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .blog-sec {
+    height: 40px;
+    width: 400px;
+    margin-left: 15px;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-right: 5px;
+  }
+  .subs-btn {
+    height: 30px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .line_1 {
+    margin-left: 50%;
+    color: white;
+    border-width: 2px;
+    width: 50%;
+  }
+  .line {
+    width: 100%;
+    border-width: 3px;
+    color: white;
+  }

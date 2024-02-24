@@ -1,0 +1,38 @@
+.profile-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.profile-list{
+    margin-top:10px ;
+    background-color: #00888F;
+    font-family: Josefin Slab;
+    color: white;
+    font-size: 12px;
+    list-style-type: none;
+    font-weight: lighter;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+    width: 160px;
+    
+}
+.logout-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50px;
+
+}
+.profile-btn{
+    background-color: black;
+    font-family: Josefin Slab;
+    color: white;
+    font-size: 18px;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+}

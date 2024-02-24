@@ -1,0 +1,335 @@
+.overview {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .overview-heading {
+    color: #00888f;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-top: 15px;
+    align-self: center;
+    font-weight: lighter;
+  }
+  .course-structure {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 40px;
+  }
+  .course-details {
+    background-color: #00adb5;
+
+    height: auto;
+    width: 220px;
+
+    text-align: center;
+    margin: 18px;
+  }
+  .paragraph-card {
+    font-family: 'Times New Roman';
+    font-size: 26px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 40px;
+  }
+  .special-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+  }
+  .details-name {
+    text-align: center;
+  }
+  .special-heading {
+    color: #00adb5;
+    align-self: center;
+    font-family: 'Roboto';
+    font-size: 22px;
+    margin: 5px;
+  }
+  .des {
+    color: #00adb5;
+    align-self: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin: 5px;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 25px;
+  }
+  .full-stack-card {
+    height: auto;
+    width: 300px;
+    background-color: #00adb5;
+    border-radius: 12px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-heading {
+    color: white;
+    font-family: italic;
+    font-size: 34px;
+    text-align: center;
+    margin: 6px;
+
+    margin-bottom: 20px;
+  }
+  .card-items {
+    color: white;
+    font-size: 16px;
+    text-align: flex-start;
+    margin-left: 35px;
+  }
+  .card-desc {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 18px;
+  }
+  .card-paragraph {
+    color: white;
+    font-size: 24px;
+    margin-left: 15px;
+  }
+  .card-btn {
+    height: 50px;
+    width: 200px;
+    align-self: center;
+    background-color: white;
+    color: #00888f;
+    border-radius: 18px;
+    font-size: 20px;
+    border-color: white;
+    margin: 12px;
+  }
+  .Ai-card {
+    height: auto;
+    width: 320px;
+    background-color: #00888f;
+    border-radius: 12px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .card-btnn {
+    height: 50px;
+    width: 200px;
+    align-self: center;
+    background-color: white;
+    color: #00888f;
+    border-radius: 18px;
+    font-size: 20px;
+    border-color: white;
+    margin: 12px;
+    margin-top: 30px;
+  }
+  .vector_5 {
+    width: 80px;
+    margin-left: 60%;
+    height: 30px;
+    margin-bottom: 50px;
+  }
+
+  .sub-para {
+    color: #00adb5;
+    font-family: 'Times New Roman';
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+  .skill_program {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .card_1 {
+    background-color: #00888f;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    color: white;
+    margin-left: 300px;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .card_2 {
+    background-color: #00888f;
+    height: auto;
+    width: 300px;
+    text-align: center;
+    color: white;
+    margin-left: 50%;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .card-head {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 6px;
+  }
+  .card-des {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    font-size: 18px;
+  }
+  .bottom-sec {
+    background-color: black;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .side-head-sec {
+    display: flex;
+    flex-direction: row;
+  }
+  .alpha-head {
+    font-size: 35px;
+    color: #00adb5;
+    margin-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    font-weight: 500;
+  }
+  .where_des {
+    font-size: 25px;
+    color: #00adb5;
+    margin-right: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 60%;
+    font-weight: 300;
+  }
+  .quick {
+    font-size: 25px;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .quick-link-sec {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .reach-sec {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .reach {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 80px;
+  }
+  .whatsapp {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 80px;
+  }
+  .mid-sec {
+    font-size: 25px;
+    color: #808080;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 120px;
+  }
+  .policy {
+    color: #808080;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    font: 300;
+    margin-left: 80px;
+  }
+  .blog {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  .blog-sec {
+    height: 40px;
+    width: 400px;
+    margin-left: 15px;
+    border-radius: 25px;
+    padding-left: 15px;
+    margin-right: 5px;
+  }
+  .subs-btn {
+    height: 30px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  .line_1 {
+    margin-left: 50%;
+    color: white;
+    border-width: 2px;
+    width: 50%;
+  }
+  .line {
+    width: 100%;
+    border-width: 3px;
+    color: white;
+  }
